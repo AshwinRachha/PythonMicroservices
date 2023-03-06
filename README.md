@@ -1,5 +1,5 @@
 # PythonMicroservices
-
+This project aims to provide an authenticated service for uploading, downloading and converting media files (in particular videos) through the use of microservices architecture facilitated by Pika and RabbitMQ. The application relies on Flask, PyMongo and GridFS to handle interactions with the MongoDB databases where the uploaded files are stored. Token-based authentication is achieved using JSON Web Tokens (JWT) and a MySQL database that contains user account details, connected to the main application via Flask-MySQLdb package. Finally, email notifications will be sent based on events made in the conversion process of the uploaded media files. This project showcases familiarity with Python programming language along with web frameworks and message broker technologies to build distributed systems software applications.
 ## API Gateway
 
 service.py
